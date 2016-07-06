@@ -1,4 +1,4 @@
-export default function cb2promise(fn) {
+export default function scb2promise(fn) {
   return (...args) => {
     return new Promise((resolve, reject) => {
       fn(...args, (err, res) => {

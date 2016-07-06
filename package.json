@@ -1,5 +1,5 @@
 {
-  "name": "cb2promise",
+  "name": "scb2promise",
   "version": "0.1.0",
   "description": "callback promise async",
   "main": "src/index.js",
