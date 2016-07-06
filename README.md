@@ -22,6 +22,18 @@ scb2promise(fs.readFile)(filename).than(buffer => {
 });
 ```
 
+which is equalent to :
+
+```
+fs.readFile(filename, (buffer, err) => {
+  if (err) {
+    console.log(err);
+  }
+
+  const fileContent = buffer.toString();
+});
+```
+
 ## notation
 
 the callback function must follow the laws below:
