@@ -1,8 +1,8 @@
 {
   "name": "scb2promise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "callback promise async",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "dev": "babel src --out-dir lib -w",
     "build": "babel src --out-dir lib",
